@@ -1,0 +1,22 @@
+---
+name: App-ZofCMS-Plugin-Search-Indexer
+version: 0.0101
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: plugin that incorporates Search::Indexer module's functionality
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  App::ZofCMS::Plugin::Base: 0.0103
+  Search::Indexer: 0.75
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::Search::Indexer:
+    file: lib/App/ZofCMS/Plugin/Search/Indexer.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

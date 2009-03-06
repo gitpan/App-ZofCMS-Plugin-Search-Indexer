@@ -1,0 +1,12 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/App/ZofCMS/Plugin/Search/Indexer.pm
+t/00-load.t
+t/01-plugin.t
+t/pod-coverage.t
+t/pod.t
+examples/index.tmpl
+Makefile.PL
+META.yml

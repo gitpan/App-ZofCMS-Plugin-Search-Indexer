@@ -1,0 +1,46 @@
+App-ZofCMS-Plugin-Search-Indexer
+
+The module is a plugin for L<App::ZofCMS> that incorporates (partial) L<Search::Indexer>
+functionality in a form of ZofCMS plugin. In other words, plugin allows one to create a
+search index from a bunch of data and later on perform search on that index. See
+docs for L<Search::Indexer> for more details.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::ZofCMS::Plugin::Search::Indexer
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-ZofCMS-Plugin-Search-Indexer
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-ZofCMS-Plugin-Search-Indexer
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-ZofCMS-Plugin-Search-Indexer
+
+    Search CPAN
+        http://search.cpan.org/dist/App-ZofCMS-Plugin-Search-Indexer
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 'Zoffix
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

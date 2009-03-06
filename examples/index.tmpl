@@ -1,0 +1,14 @@
+{
+    plugins => [ qw/Search::Indexer/ ],
+    plug_search_indexer => {
+        # most of these values are optional
+        dir         => 'index_files',
+        cell        => 'd',
+        key         => 'search_indexer',
+        obj_args    => [],
+        exact_match => 0,
+        add   => { id1 => 'text to index', },
+        remove => [ qw/id1 id2 id3/ ],
+        search => 'foo bar baz',
+    },
+}

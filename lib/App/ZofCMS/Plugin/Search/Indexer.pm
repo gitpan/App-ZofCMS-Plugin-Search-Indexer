@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::Search::Indexer;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use base 'App::ZofCMS::Plugin::Base';
 use Search::Indexer;
@@ -80,6 +80,8 @@ sub do_search {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

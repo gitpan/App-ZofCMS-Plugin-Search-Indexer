@@ -16,7 +16,9 @@ my $builder = Module::Build->new(
     requires => {
         'App::ZofCMS::Plugin::Base' => 0.0103,
         'Search::Indexer'           => 0.75,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-Search-Indexer-*' ],
     create_makefile_pl => 'traditional',
 );

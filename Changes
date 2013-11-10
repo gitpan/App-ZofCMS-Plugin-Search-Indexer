@@ -1,8 +1,11 @@
 Revision history for App-ZofCMS-Plugin-Search-Indexer
 
-0.0102  March 14, 2009
-        CPAN didn't index older version... no changes to code
+0.0103  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0101  March 6, 2009
-        First version, released on an unsuspecting world.
+0.0102  2009-03-14
+        - CPAN didn't index older version... no changes to code
+
+0.0101  2009-03-06
+        - First version, released on an unsuspecting world.
 
